@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "py-mod-1"
+version = "0.1.0"
+description = "Test Module 1"
+authors = ["Chris Howell <cacen.mawr@gmail.com>"]
+license = "Apache License 2.0"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+requests = "^2.28.1"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
