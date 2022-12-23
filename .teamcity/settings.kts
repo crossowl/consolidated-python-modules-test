@@ -66,4 +66,8 @@ object Build : BuildType({
 
 object PyMod : Template({
     name = "PyMod"
+
+    params {
+        param("py_module", "")
+    }
 })
