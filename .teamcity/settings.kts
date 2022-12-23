@@ -30,6 +30,8 @@ version = "2022.10"
 project {
 
     buildType(Build)
+
+    template(PyMod)
 }
 
 object Build : BuildType({
@@ -60,4 +62,8 @@ object Build : BuildType({
         perfmon {
         }
     }
+})
+
+object PyMod : Template({
+    name = "PyMod"
 })
